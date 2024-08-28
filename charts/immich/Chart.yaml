@@ -17,7 +17,7 @@ maintainers:
 dependencies:
   - name: common
     repository: https://bjw-s.github.io/helm-charts
-    version: 1.4.0
+    version: 1.5.1
   - name: postgresql
     condition: postgresql.enabled
     repository: https://charts.bitnami.com/bitnami
@@ -25,7 +25,7 @@ dependencies:
   - name: redis
     condition: redis.enabled
     repository: https://charts.bitnami.com/bitnami
-    version: 19.5.3
+    version: 20.0.3
 annotations:
   artifacthub.io/category: storage
   artifacthub.io/changes: |-
